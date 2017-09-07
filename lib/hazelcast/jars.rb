@@ -16,6 +16,10 @@ module Hazelcast
         require "hazelcast/jars/hazelcast-all-#{version}.jar"
       end
 
+      def spring
+        require "hazelcast/jars/hazelcast-spring-#{version}.jar"
+      end
+
     end
   end
 end
